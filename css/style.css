@@ -1,0 +1,168 @@
+body{
+  background-image: url("1.jpg");
+}
+
+/*--- Judul ---*/
+.judul h1 a{
+  color: #000000;
+  font-size: 40px;
+  font-family: Agency FB;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+.judul h1 a span{
+  color: #DD2C00;
+}
+.judul h1{
+  text-align: center;
+}
+/*--- Judul ---*/
+
+/*--- Dashboard ---*/
+
+/*--- Dashboard ---*/
+
+/*--- Efek Menu ---*/
+.linkefek ul{
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+}
+.linkefek li{
+  list-style:none;
+  display:inline-block;
+  margin: 15px 25px;
+}
+.linkefek li a{
+  font-size: 20px;
+  font-family: Consolas;
+  display: inline-block;
+  outline: none;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.linkefek a:hover, .linkefek a:focus{
+  outline: none;
+}
+.linkefek_2 li {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.linkefek_2 li a {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+}
+.linkefek_2 li a:before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-link-alt);
+    color: #DD2C00;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    font-weight: 400 !important;
+}
+.linkefek_2 li:hover a, .linkefek_2 li:focus a {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+/*--- Efek Menu ---*/
+
+/*--- Reservasi ---*/
+.reservasi{ 
+
+}
+.bg_reservasi{
+  background: rgba(8, 8, 8, 0.32);
+  width: 400px;
+  height: 700px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+.judul_reservasi h3{
+  font-size: 25px;
+  font-family: Maiandra GD;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.isidata{
+  margin: 20px 20px;
+}
+.isidata h5{
+  font-size: 20px;
+  font-family: Maiandra GD;
+  margin-bottom: 3px;
+  margin-top: 15px;
+}
+input{
+  width: 350px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.cekin input{
+  width: 91%;
+  height: 35px;
+}
+.cekot input{
+  width: 91%;
+  height: 35px;
+}
+.submit input{
+  width: 80px;
+  height: 40px;
+}
+.tipe_ruangan select{
+  width: 355px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.jmlh_org select{
+  width: 45px;
+  height: 35px;
+  font-size: 15px;
+}
+.cekin{
+    float: left;
+    width: 49%;
+}
+.cekot{
+    float: left;
+    width: 49%;
+    margin-left: 2%;
+}
+hr{
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.submit{
+  float:right;
+  width: 30%;
+}
+.submit input{
+  outline:none;
+  padding:1em;
+  width:100%;
+  text-transform:uppercase;
+  font-size:14px;
+  color:#fff;
+  background:#D50000;
+  border:none;
+  cursor:pointer;
+}
+.submit input:hover{
+  color:#000000;
+  background:#fff;
+}
+
